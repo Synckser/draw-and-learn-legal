@@ -40,18 +40,26 @@
             border-left: 4px solid #F59E0B;
             margin: 20px 0;
         }
+        @import url("./lang-switch.css");
         ul {
             margin-left: 20px;
         }
         li {
             margin-bottom: 10px;
         }
+        .back {
+            text-align: center;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🎨 Privacy Policy - Draw &amp; Learn</h1>
-        <p class="last-updated">Last Updated: March 23, 2026</p>
+        <p class="last-updated">Last Updated: March 25, 2026</p>
+        <div class="lang-switch" aria-label="Translate"></div>
+        <div class="lang-note">Auto-translate via Google Translate</div>
+        <div class="lang-disclaimer">Machine translations may vary in accuracy.</div>
 
         <div class="highlight">
             <strong>Simple Version for Parents:</strong> We don't collect, store, or share any personal information about your child. Ever. Everything stays on your device.
@@ -65,7 +73,7 @@
         <ul>
             <li>❌ <strong>Personal Information</strong> - No names, emails, phone numbers, or addresses</li>
             <li>❌ <strong>Location Data</strong> - We never access your location</li>
-            <li>❌ <strong>Photos or Camera</strong> - We don't access your camera or photo library</li>
+            <li>❌ <strong>Camera</strong> - We do not access the camera</li>
             <li>❌ <strong>Contacts</strong> - We never access your contact list</li>
             <li>❌ <strong>Microphone</strong> - We don't record audio (we only speak to your child via text-to-speech)</li>
             <li>❌ <strong>Analytics or Tracking</strong> - No third-party analytics, no advertising IDs, no tracking</li>
@@ -79,6 +87,7 @@
             <li>✅ <strong>User Preferences</strong> - Language selection, sound settings</li>
             <li>✅ <strong>Saved Drawings</strong> - Artwork created in the app</li>
             <li>✅ <strong>Subscription Status</strong> - Managed entirely by Apple via StoreKit</li>
+            <li>✅ <strong>Optional Photo Export</strong> - If a parent chooses to save artwork to Photos, the app requests add-only photo access to write the selected image</li>
         </ul>
 
         <h2>4. Apple StoreKit and Purchases</h2>
@@ -99,6 +108,16 @@
             <li>Does not record or transmit any audio</li>
             <li>Does not require an internet connection</li>
             <li>Can be turned off using the sound toggle</li>
+        </ul>
+
+        <h2>5A. Saving Artwork to Photos</h2>
+        <p>Draw &amp; Learn can export a drawing to the device photo library only when a parent or guardian chooses the save action. In that case:</p>
+        <ul>
+            <li>The app requests <strong>add-only</strong> photo library permission</li>
+            <li>The app writes only the selected exported image</li>
+            <li>The app does not read or scan the full photo library</li>
+            <li>If permission is denied, the drawing remains only inside the app unless manually shared another way</li>
+            <li>Save to Photos, printing, and deletion of saved drawings are protected by a parental gate</li>
         </ul>
 
         <h2>6. Third-Party Services</h2>
@@ -140,6 +159,9 @@
             <li><strong>Delete All Data:</strong> Delete the app from your device</li>
         </ul>
 
+        <h2>10A. Parent Supervision</h2>
+        <p>Parents and guardians are responsible for supervising children while using the app, deciding whether to export or share artwork, and ensuring children take regular breaks from screen time.</p>
+
         <h2>11. International Users</h2>
         <p>Draw &amp; Learn is available worldwide. Since we don't collect or transmit any personal data, there are no cross-border data transfers to worry about.</p>
 
@@ -171,9 +193,12 @@
             <strong>Summary:</strong> Draw &amp; Learn is designed to be completely private and safe for children. Your child's drawings, preferences, and interactions stay on your device. We believe the best privacy is no data collection at all.
         </div>
 
+        <p class="back"><a href="index.html">← Back to Draw &amp; Learn</a></p>
+
         <p style="margin-top: 40px; text-align: center; color: #666;">
             © 2026 Draw &amp; Learn. All rights reserved.
         </p>
     </div>
+    <script src="./lang-switch.js"></script>
 </body>
 </html>

@@ -11,17 +11,22 @@
         a { display: inline-block; margin: 12px 16px; font-size: 1.1em; color: #4A90D9; text-decoration: none; font-weight: 600; }
         a:hover { text-decoration: underline; }
         .tagline { color: #888; font-size: 0.95em; margin-top: 8px; }
+        @import url("./lang-switch.css");
     </style>
 </head>
 <body>
     <p class="emoji">🎨</p>
     <h1>Draw &amp; Learn</h1>
     <p class="tagline">Guided Drawing &amp; Tracing for Kids</p>
+    <div class="lang-switch" aria-label="Translate"></div>
+    <div class="lang-note">Auto-translate via Google Translate</div>
+    <div class="lang-disclaimer">Machine translations may vary in accuracy.</div>
     <br>
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms of Use</a>
     <a href="support.html">Support</a>
     <br><br>
     <p class="tagline">© 2026 Draw &amp; Learn · <a href="mailto:info@cambyte.co.uk" style="color:#888;font-weight:normal;">info@cambyte.co.uk</a></p>
+    <script src="./lang-switch.js"></script>
 </body>
 </html>

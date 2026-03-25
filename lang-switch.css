@@ -1,0 +1,29 @@
+/* Language switcher shared styles */
+.lang-switch {
+    margin: 10px 0 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lang-switch span {
+    color: #777;
+    font-size: 0.9em;
+}
+.lang-flag {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.lang-note {
+    color: #888;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -6px;
+}
+.lang-disclaimer {
+    color: #888;
+    font-size: 0.78em;
+    text-align: center;
+    margin: 6px 0 12px;
+}

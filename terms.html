@@ -40,11 +40,16 @@
             border-left: 4px solid #F59E0B;
             margin: 20px 0;
         }
+        @import url("./lang-switch.css");
         ul {
             margin-left: 20px;
         }
         li {
             margin-bottom: 10px;
+        }
+        .back {
+            text-align: center;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -52,6 +57,9 @@
     <div class="container">
         <h1>📝 Terms of Use - Draw &amp; Learn</h1>
         <p class="last-updated">Last Updated: March 23, 2026</p>
+        <div class="lang-switch" aria-label="Translate"></div>
+        <div class="lang-note">Auto-translate via Google Translate</div>
+        <div class="lang-disclaimer">Machine translations may vary in accuracy.</div>
 
         <div class="highlight">
             <strong>Quick Summary:</strong> By using Draw &amp; Learn, you agree to use the app respectfully, understand that subscriptions auto-renew through Apple, and acknowledge that we provide the app "as-is" for educational purposes.
@@ -308,9 +316,12 @@
             <strong>Parent/Guardian Acknowledgment:</strong> If you are a parent or guardian allowing your child to use Draw &amp; Learn, you accept these Terms on their behalf and are responsible for their use of the App.
         </div>
 
+        <p class="back"><a href="index.html">← Back to Draw &amp; Learn</a></p>
+
         <p style="margin-top: 40px; text-align: center; color: #666;">
             © 2026 Draw &amp; Learn. All rights reserved.
         </p>
     </div>
+    <script src="./lang-switch.js"></script>
 </body>
 </html>

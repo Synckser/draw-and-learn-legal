@@ -15,11 +15,15 @@
         .contact-box { background: #F0F7FF; border-radius: 12px; padding: 20px; margin: 20px 0; text-align: center; }
         ul { padding-left: 1.2em; }
         li { margin-bottom: 0.6em; }
+        @import url("./lang-switch.css");
     </style>
 </head>
 <body>
     <p class="emoji">🎨</p>
     <h1>Draw &amp; Learn — Support</h1>
+    <div class="lang-switch" aria-label="Translate"></div>
+    <div class="lang-note">Auto-translate via Google Translate</div>
+    <div class="lang-disclaimer">Machine translations may vary in accuracy.</div>
 
     <div class="contact-box">
         <p><strong>Need help?</strong> We're happy to assist.</p>
@@ -51,5 +55,6 @@
     </ul>
 
     <p class="back"><a href="index.html">← Back to Draw &amp; Learn</a></p>
+    <script src="./lang-switch.js"></script>
 </body>
 </html>
